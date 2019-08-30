@@ -7,7 +7,7 @@ const passport = require('passport');
 // Connect to database
 const db = require('./config/keys').mongoURI;
 mongoose
-  .connect(db)
+  .connect(db, { useNewUrlParser: true })
   .then(() => console.log('MongoDB Connected Successfully'))
   .catch(err => console.log(err));
 

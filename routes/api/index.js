@@ -1,16 +1,16 @@
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 
 // Get routes
-const users = require('./users')
-const sort = require('./sort')
-const belts = require('./belts')
-const quiz = require('./quiz')
+const users = require('./users');
+const sort = require('./sort');
+const belts = require('./belts');
+const quiz = require('./quiz');
 
 // Use routes
-router.use('/api/users', users)
-router.use('/api/sort', sort)
-router.use('/api/belts', belts)
-router.use('/api/quiz', quiz)
+router.use('/users', users);
+router.use('/sort', sort);
+router.use('/belts', belts);
+router.use('/quiz', quiz);
 
-module.exports = router
+module.exports = router;
