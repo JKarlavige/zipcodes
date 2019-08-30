@@ -30,4 +30,5 @@ app.use('/api/', routes);
 
 // Set port for Heroku, else use local 5000
 const port = process.env.PORT || 5000;
+// Start server
 app.listen(port, () => console.log(`Server running on port ${port}`));
