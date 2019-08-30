@@ -1,0 +1,31 @@
+#nav-contain {
+  background:#301506;
+  height:80px;
+}
+#logo-contain {
+  float:left;
+  width:30%;
+  height:80px;
+}
+#logo-contain #logo {
+  max-width:250px;
+  line-height:80px;
+  height:80px;
+}
+nav {
+  line-height:80px;
+  float:right;
+}
+.nav-item {
+  color:#fff;
+  padding:0 10px;
+  text-decoration:none;
+  display:inline-block;
+  cursor: pointer;
+}
+.nav-item:hover {
+  color:#FAB80A;
+}
+.nav-item:last-child {
+  padding-right:0;
+}

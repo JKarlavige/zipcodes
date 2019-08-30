@@ -6,12 +6,12 @@ module.exports = function validateSortInput(data) {
 
   // If name field is empty, set to empty string 
   // (allows validator.isEmpty to test for empty string)
-  data.zipcode = !isEmpty(data.zipcode) ? data.zipcode : ''
+  data.zip = !isEmpty(data.zip) ? data.zip : ''
   data.serviceLevel = !isEmpty(data.serviceLevel) ? data.serviceLevel : ''
 
-  // Check if zipcode field is empty
-  if(validator.isEmpty(data.zipcode)) {
-    errors.zipcode = 'Zipcode field is required'
+  // Check if zip field is empty
+  if(validator.isEmpty(data.zip)) {
+    errors.zip = 'Zipcode field is required'
   }
   // Check if service level field is empty
   if(validator.isEmpty(data.serviceLevel)) {

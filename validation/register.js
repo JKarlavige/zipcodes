@@ -6,19 +6,19 @@ module.exports = function validateRegisterInput(data) {
 
   // If name field is empty, set to empty string 
   // (allows validator.isEmpty to test for empty string)
-  data.name = !isEmpty(data.name) ? data.name : ''
+  data.username = !isEmpty(data.username) ? data.username : ''
   data.employeeId = !isEmpty(data.employeeId) ? data.employeeId : ''
   data.email = !isEmpty(data.email) ? data.email : ''
   data.password = !isEmpty(data.password) ? data.password : ''
   data.passwordConf = !isEmpty(data.passwordConf) ? data.passwordConf : ''
 
-  // Check if name between 2 & 30 characters
-  if(!validator.isLength(data.name, {min: 2, max: 30})) {
-    errors.name = 'Name must be between 2 and 30 characters.'
+  // Check if username between 2 & 30 characters
+  if(!validator.isLength(data.username, {min: 2, max: 30})) {
+    errors.username = 'Username must be between 2 and 30 characters.'
   }
-  // Check if name field is empty
-  if(validator.isEmpty(data.name)) {
-    errors.name = 'Name field is required'
+  // Check if username field is empty
+  if(validator.isEmpty(data.username)) {
+    errors.username = 'Username field is required'
   }
 
   // Check if employeeId field is empty

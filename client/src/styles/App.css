@@ -1,0 +1,87 @@
+/*
+ *
+ * COLORS:
+ * Brown: #301506
+ * Yellow: #FAB80A
+ * Yellow Dark: #f1af00
+ *
+*/
+
+* {
+  box-sizing:border-box;
+}
+body {
+  color:#fff;
+  font-family:'Hind', sans-serif;
+}
+section {
+  padding:0 10px;
+}
+/* General Font Styles */
+a:link, a:visited {
+  text-decoration:none;
+}
+li {
+  list-style-type: none;
+}
+.bold {
+  font-weight:600;
+}
+
+/* Forms */
+.form-error {
+  border:1px solid red !important;
+}
+.form-error-description {
+  color:red;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+main {
+  background: url('../images/landing_bg.jpg') no-repeat;
+  background-size:cover;
+  background-position:bottom;
+  width:100%;
+  min-height:100vh; 
+  position: relative;
+}
+
+.module {
+  background:#fff;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+.module-icon {
+  width:100px;
+  display:block;
+  margin:0 auto;
+  padding:50px 0;
+}
+.module-link {
+  background:#FAB80A;
+  width:100%;
+  display:block;
+  padding:20px 0;
+  text-align:center;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.module-link:hover {
+  color:#fff;
+  background:#f1af00;
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+
+}
+
+@media (min-width: 960px){
+
+}

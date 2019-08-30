@@ -1,0 +1,22 @@
+.quiz-information {
+  padding:10px;
+  background:rgba(42, 21, 11, .5);
+}
+.quiz-results {
+  text-align:center;
+}
+.result-box {
+  padding:10px;
+}
+.result-box-correct {
+  background:#037C47;
+}
+.result-box-incorrect {
+  background:#94201D;
+}
+.result-box h2, .result-box h6 {
+  margin:0;
+}
+.result-box i {
+  padding-left:5px;
+}

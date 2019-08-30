@@ -1,0 +1,21 @@
+.training-contain h2 {
+    text-align:center;
+    margin-top:50px;
+}
+.training-options {
+  display: flex;
+  flex-flow:row wrap;
+}
+#begin-training-link {
+  margin:0;
+  padding:10px 0;
+  color:#fff;
+  font-size:1.4rem;
+  height:auto;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border:0;
+}
+.quiz {
+  position: relative;
+}

@@ -1,0 +1,10 @@
+#landing-contain h4 {
+  text-align:center;
+}
+#landing-links {
+  text-align:center;
+}
+#landing-links li {
+  display: inline-block;
+  margin:0 10px;
+}

@@ -1,0 +1,7 @@
+.auth-contain {
+  background:#fff;
+  padding:20px;
+}
+.auth-contain label, .auth-contain p, .auth-contain #login-btn {
+  color:#301506;
+}

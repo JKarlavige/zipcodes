@@ -1,0 +1,16 @@
+.quiz-answers {
+  /* position: absolute;
+  left:0;
+  bottom:0; */
+  padding:5px;
+}
+
+.quiz-answer-list {
+  width:auto;
+}
+.quiz-answer-dest {
+  /* background:#301506; */
+  padding:10px;
+  margin-bottom:5px;
+  cursor: pointer;
+}
