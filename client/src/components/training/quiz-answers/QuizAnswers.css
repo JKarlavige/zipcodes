@@ -1,16 +1,24 @@
 .quiz-answers {
-  /* position: absolute;
-  left:0;
-  bottom:0; */
-  padding:5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.quiz-answers button {
+  margin: 2.5px;
+  flex: 1 0 30%;
 }
 
 .quiz-answer-list {
-  width:auto;
+  width: auto;
 }
 .quiz-answer-dest {
   /* background:#301506; */
-  padding:10px;
-  margin-bottom:5px;
+  padding: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
+}
+
+.quiz-answers {
+  padding-bottom: 25px;
 }
